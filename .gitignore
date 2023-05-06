@@ -1,24 +1,26 @@
-# Compiled class file
-*.class
+package practica5;
 
-# Log file
-*.log
+import java.util.Scanner;
 
-# BlueJ files
-*.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+public class Practica5 {
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+         int numero  ;
+        
+        Scanner  e = new Scanner(System.in);
+        System.out.println("Escribir un numero");
+        numero = e.nextInt();
+        
+        
+        if (numero%2==0){
+            System.out.println("El numero es par");
+        }else {
+            System.out.println("El numero es impar");
+        }    
+    }
+    
+}
